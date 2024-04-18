@@ -1,0 +1,171 @@
+*{
+	font-family: "Mochiy Pop One", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	height: 100vh;
+	background: url(background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+ul{
+	list-style: none;
+}
+
+
+.form{
+	width: 400px;
+	background-color: transparent;
+	backdrop-filter: blur(30px);
+	opacity: 0.9;
+	box-shadow:  10px 10px 10px;
+	border-radius: 10px;
+	padding: 20px 20px;
+}
+.input-inner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	padding: 30px;
+}
+
+.login{
+	font-family: "Mochiy Pop One", sans-serif;
+	color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	font-weight: 400;
+
+}
+
+.input-box{
+	margin-bottom: 20px;
+	background-color: transparent;
+	border-radius: 5px;
+	width: 100%;
+	border: 2px solid #f6e6e6;
+}
+.input-box1{
+	margin-bottom: 10px;
+	border: 2px solid #f6e6e6;
+	background-color: transparent;
+	border-radius: 5px;
+	width: 100%;
+}
+.checkbox{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	display: flex;
+	gap: 50px;
+	
+}
+
+.checkbox1{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.login-form{
+	width: 260px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: transparent;
+	border: none;
+}
+.login-form::placeholder{
+	font-size: 13px;
+	color: #fff;
+	opacity: 0.5;
+}
+.password::placeholder{
+	font-size: 13px;
+	color: #fff;
+	opacity: 0.5;
+}
+
+.password{
+	width: 260px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: transparent;
+	border: none;
+}
+.remember-box{
+display: flex;
+font-size: 12px;
+font-weight: 300;
+color: #fff;
+gap: 4px;
+}
+.forgot-password{
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 300;
+	text-decoration: none;
+	color: #634eff;
+	transition: color 0.3s ;
+}
+.forgot-password:hover{
+	color: #ffffff;
+}
+
+.button-form{
+	width: 130px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s ;
+	border: none;
+}
+
+.button-form:hover{
+	background-color: #2710d6;
+}
+
+.checkbox-form{
+	accent-color: #00e622;
+	background-color: #00e622;
+	color: #00e622;
+}
+.register{
+	display: flex;
+	gap: 30px;
+	margin-top: 20px;
+}
+
+.register p{
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.register-item{
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 300;
+	text-decoration: none;
+	color: #634eff;
+	transition: color 0.3s ;
+}
+.register-item:hover{
+	color: #ffffff;
+}
+
+.bx{
+	color: #fff;
+}
