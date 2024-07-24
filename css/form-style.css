@@ -8,7 +8,7 @@
 
 body{
 	height: 100vh;
-	background: url(background.jpg);
+	background: url(../img/background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0;
@@ -84,6 +84,7 @@ ul{
 	border-radius: 5px;
 	background-color: transparent;
 	border: none;
+	color: #fff;
 }
 .login-form::placeholder{
 	font-size: 13px;
@@ -102,6 +103,7 @@ ul{
 	border-radius: 5px;
 	background-color: transparent;
 	border: none;
+	color: #fff;
 }
 .remember-box{
 display: flex;
